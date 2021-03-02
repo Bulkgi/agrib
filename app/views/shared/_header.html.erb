@@ -13,18 +13,18 @@
   <div class = "nav">
     <ul class = 'lists-left'>
       <li>
-        <%= link_to '出品される方はこちらから'%>
+        <%= link_to '出品される方はこちらから',"#", class: "order-list"%>
       </li>
       <li>
-        <%= link_to '出品される方の新規登録はこちらから'%>
+        <%= link_to '出品される方の新規登録はこちらから', "#", class:"new-order-list"%>
     </ul>
   <%# ログインしていなければ新規登録か、ログインボタンが表示され、そうでなければログアウトボタンとユーザーの名前が出てくる%> 
     <ul class = 'lists-right'>
       <li>
-        <%= link_to ,"#", class:"user-nickname"%>
+        <%#= link_to "#", class:"user-nickname"%>
       </li>
       <li>
-        <%= link_to 'ログアウト', "#", class:"login"%>
+        <%#= link_to 'ログアウト', "#", class:"logout"%>
       </li>
       <li>
         <%= link_to 'ログイン', "#", class:"login"%>
