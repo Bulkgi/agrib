@@ -50,7 +50,7 @@ URL:
   |last_name          | string     | null: false              |
   |first_name_ruby    | string     | null: false              |
   |last_name_ruby     | string     | null: false              |
-  |birth_day          | days       | null: false              |
+  |birth_day          | date       | null: false              |
   
 
 ### Association
@@ -98,7 +98,7 @@ URL:
  | name               | string      | null: false              |
  | name_ruby          | string      | null: false              |
  | from               | string      | null: false              |
- | firm_name          | string      |                          |
+ | farm_name          | string      |                          |
  | email              | string      | null: false unique: true |
  | encrypted_password | string      | null: false              |
  | introduction       | text        | null: false              |
