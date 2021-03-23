@@ -20,7 +20,7 @@
     </ul>
   <%# ログインしていなければ新規登録か、ログインボタンが表示され、そうでなければログアウトボタンとユーザーの名前が出てくる%> 
     <ul class = 'lists-right'>
-      <% if user_signed_in? %>
+      <% if user_signed_in? || farmer_user_signed_in? %>
         <li>
           <%#= link_to "#", class:"user-nickname"%>
         </li>
